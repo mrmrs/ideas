@@ -49,10 +49,12 @@ personal portfolio.
 
 #### Automated component documentation
 
-First grab all links for a given site. Could use something like: ``` wget
+First grab all links for a given site. Could use something like:
+```
+wget
 --spider --force-html -r -l2 $url 2>&1 \ | grep '^--' | awk '{ print $3 }' \ |
 grep -v '\.\(css\|js\|png\|gif\|jpg\)$' \
-  > urls.txt
+> urls.txt
 ```
 
 For each view generate an [ast from the dom](https://github.com/iogf/ehp)
