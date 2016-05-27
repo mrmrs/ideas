@@ -66,6 +66,16 @@
       "text": "Discrete CSS diff\n\nThis idea has a few possible uses\n\nEverytime someone tries to check in some css, they get instant feedback to let them know if they aren't introducing any new visual styles (rules) to the codebase. A list of classes referencing the same visual styles could be returned to promote reuse within a codebase.\n\nSite checker. You could compare two different sites and get back and object that contained all of the unique css for each codebase in regards to rules (property value pairs).\n\nCould compare the top 1000 sites on alexa and show the list of unique css amongst all of them vs the css that each site contains.",
       "subhead": "Feel free to steal any of these.An open source list of half-baked ideas. Anyone is free to take these ideas and run with them.",
       "backgroundImage": "http://mrmrs.io/photos/1.jpeg"
+    },
+    {
+      "component": "section/MutedBigSection",
+      "heading": "",
+      "links": [
+        {
+          "href": "http://github.com/mrmrs/ideas",
+          "text": "View on GitHub"
+        }
+      ]
     }
   ]
 }
